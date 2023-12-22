@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <parameter name="email" value="athira@gmail.com"></parameter>
+	  <parameter name="pswd" value="athi123"></parameter>
+	  <parameter name="login" value="submit"></parameter>
+	  <classes>
+	  <class name="testNgpkg.Facebooklogin"/>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
